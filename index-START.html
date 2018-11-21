@@ -9,13 +9,25 @@
 
     html {
       font-family: sans-serif;
-      background: #ffc600;
+      background-image: url('https://static1.squarespace.com/static/58e9b976e58c6214d4b74edc/t/58eeef2bebbd1aeb69cda311/1492053819562/?format=1500w');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: black;
+      background-repeat: repeat
     }
 
+    .title {
+      color:rgb(0, 0, 0);
+      font-size: 30px;
+      text-align: center;
+      background-color: aqua;
+    }
     .inbox {
-      max-width: 400px;
+      max-width: 600px;
       margin: 50px auto;
-      background: white;
+      background: rgb(0, 169, 221);
       border-radius: 5px;
       box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
     }
@@ -31,7 +43,7 @@
     }
 
     input:checked + p {
-      background: #F9F9F9;
+      background: rgb(0, 192, 112);
       text-decoration: line-through;
     }
 
@@ -56,6 +68,14 @@
    When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down, all the checkboxes inbetween those two checkboxes should be checked.
 
   -->
+  <div>
+    <div class="title">
+    <h1>Classic Checkbox with a Twist</h1>
+    <h2>If you hold shift and click two checkboxes, 
+      it will check off all the items in between</h2>
+    </div>
+  </div>
+
   <div class="inbox">
     <div class="item">
       <input type="checkbox">
